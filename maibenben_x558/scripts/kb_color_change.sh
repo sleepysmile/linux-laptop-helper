@@ -1,5 +1,5 @@
 #!/bin/bash
-STATEFILE="/home/roman/.kbd_color_state"
+STATEFILE="$HOME/.kbd_color_state"
 CURRENT=$(cat "$STATEFILE" 2>/dev/null || echo "0")
 
 case "$CURRENT" in
